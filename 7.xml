@@ -1,0 +1,36 @@
+d. When app sends the request to the server, the server should provide data in json
+format.
+e. The client app should fetch this data and display using listview.
+https://raw.githubusercontent.com/wellingtoncosta/fake-contacts-api/master/db.json
+{
+"contacts": [
+{
+"id": "5b2eee0a8fdd5b71c8148490",
+"age": 29,
+"name": "Campos York",
+"gender": "male",
+"company": "AVENETRO",
+"email": "camposyork@avenetro.com",
+"photo": "https://randomuser.me/api/portraits/men/3.jpg"
+},
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+c
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Fetch Data"
+android:id="@+id/fetch"
+/>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/textView"
+/>
+<ListView
+S Trisheela
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/list"
+></ListView>
+</LinearLayout>
